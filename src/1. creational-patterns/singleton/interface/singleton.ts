@@ -1,4 +1,4 @@
 export default interface singleton {
-  readonly instance: singleton
-  getInstance: () => singleton
+  instance?: singleton // static 키워드 안됨 난감;;
+  getInstance?: () => singleton
 }
