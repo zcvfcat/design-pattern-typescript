@@ -1,3 +1,3 @@
 export default interface builder {
-  build: () => builder
+  build: () => object
 }
